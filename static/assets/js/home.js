@@ -175,6 +175,7 @@ const SplashT = [
   "Created by the owner of nebula",
   "5000 calories",
   "Made with vegetables",
+  "Made with Rizz",
   "Ran by a potato",
   "50% beef and 50% chicken"
   "My dog ate my pc",
