@@ -170,27 +170,6 @@ document.addEventListener("DOMContentLoaded", event => {
     particlesJS("particles-js", particlesConfig);
   }
 });
-// Splash texts
-const SplashT = [
-  "Created by the owner of nebula",
-  "5000 calories",
-  "Made with vegetables",
-  "Made with Rizz",
-  "Ran by a potato",
-  "50% beef and 50% chicken"
-  "My dog ate my pc",
-  "asdfhjgakusdjhajfhkahujsdkjfhkl uh oh my cat",
-  "Sigma list : Daytona, Joaquin, More soon...................."
-
-];
-
-let SplashI = Math.floor(Math.random() * SplashT.length);
-const SplashE = document.getElementById("splash");
-
-function US() {
-  SplashI = (SplashI + 1) % SplashT.length;
-  SplashE.innerText = SplashT[SplashI];
-}
 
 SplashE.innerText = SplashT[SplashI];
 
